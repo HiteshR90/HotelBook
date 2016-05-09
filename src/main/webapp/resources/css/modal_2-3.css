@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+		  __  __           _       _          ___                 ____        _____  _____ _____ 
+		 |  \/  |         | |     | |        |__ \      ___      |___ \      / ____|/ ____/ ____|
+		 | \  / | ___   __| | __ _| |___        ) |    ( _ )       __) |    | |    | (___| (___  
+		 | |\/| |/ _ \ / _` |/ _` | / __|      / /     / _ \/\    |__ <     | |     \___ \\___ \ 
+		 | |  | | (_) | (_| | (_| | \__ \     / /_    | (_>  <    ___) |    | |____ ____) |___) |
+		 |_|  |_|\___/ \__,_|\__,_|_|___/    |____|    \___/\/   |____/      \_____|_____/_____/ 
+                                                                                         
+						
+				   ╮(╯▽╰)╭    TABLE OF CONTENT: (in order top to bottom ** subject to change)
+														#modal2
+														#modal2-content
+														.modalTitle +
+														.slick-slider +
+														#modal2-addCart +
+														#modal2-tabcontain
+														#modal2-tabs +
+														(modal3) @Media Queries 
+														#modal3cart +
+														scrollbar
+														.button 
+														fonts	 
+														#modal3-cartcontainer	 
+														.roomRemove	
+														.roomTimer	   	*/
+#modal2 {
+	height: auto;
+	padding: 2% 1% 0 1%;
+	top: 20px;
+}
+
+#modal2-content {
+	color: #FFFDE9;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+	float: left;
+	width: 100%;
+}
+
+.modalTitle {
+	
+}
+
+.modalTitle h1 {
+	text-transform: capitalize;
+	font-size: 24px;
+	color: #FFFDE9;
+	padding: 0;
+	margin: 0;
+}
+
+#resInfo-container {
+	padding-top: 2%;
+}
+
+.M2ResInfo {
+	margin-bottom: 10%;
+}
+
+.M2ResInfo h5 {
+	text-transform: capitalize;
+	font-size: 18px;
+	color: #FFFDE9;
+}
+
+.slick-slider {
+	
+}
+
+.slick-slider img {
+	border-radius: 10px;
+	margin: 0 auto;
+	border: 1px solid #3A2C1D;
+	height: 225px;
+}
+
+#modal2-addCart {
+	margin-top: 2%;
+	padding: 0 2% 0 0;
+}
+
+#modal2-addCart .button {
+	margin: 0;
+}
+
+#modal2-tabcontain {
+	width: 100%;
+}
+
+#modal2-tabs {
+	width: 100%;
+}
+
+#modal2-tabs .tabs {
+	margin-bottom: 0 !important;
+	margin-left: 1%;
+	width: 100%;
+}
+
+#modal2-tabs  .tabs dd>a {
+	display: block;
+	background: none;
+	color: #FFFDE9;
+	padding: 1rem 1rem;
+	font-family: inherit;
+	font-size: 1rem;
+	border: none
+}
+
+#modal2-tabs  .tabs dd>a:hover {
+	background: none;
+	color: #FFFDE9;
+}
+
+#modal2-tabs   .tabs dd.active a {
+	background: #C11A22;
+	color: #FFFDE9;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#modal2-tabs .tabs-content {
+	*zoom: 1;
+	width: 100% !important;
+	border: #FFFDE9 1px solid;
+	border-radius: 10px;
+	padding: 0px;
+}
+
+#modal2-tabs  .tabs-content:before, .tabs-content:after {
+	content: " ";
+	display: table;
+}
+
+#modal2-tabs  .tabs-content:after {
+	clear: both;
+}
+
+#modal2-tabs  .tabs-content>.content {
+	display: none;
+	float: left;
+	width: 100%;
+	padding: 0px 2%;
+}
+
+#modal2-tabs   .tabs-content>.content.active {
+	display: block;
+	float: none;
+}
+
+#modal2-tabs .no-js .tabs-content>.content {
+	display: block;
+	float: none;
+}
+
+/*____________________________
+ 
+ 			Modal 3
+_______________________________*/
+/
+Small
+ 
+screens
+
+
+@media only screen {
+	#modal3cart h2 {
+		font-size: 13px !important;
+	}
+	#modal3cart p {
+		font-size: 12px !important;
+	}
+	.roomRemove {
+		font-size: 20px !important;
+	}
+	.roomTimer {
+		font-size: 13px !important;
+		padding-left: 0 !important;
+	}
+} /* Define mobile styles */
+@media only screen and (max-width: 40em) {
+	#modal3cart h2 {
+		font-size: 13px !important;
+	}
+	#modal3cart p {
+		font-size: 12px !important;
+	}
+	.roomRemove {
+		font-size: 20px !important;
+	}
+	.roomTimer {
+		font-size: 13px !important;
+		padding-left: 0 !important;
+	}
+}
+	/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+//
+Medium
+ 
+screens
+
+
+@media only screen and (min-width: 40.063em) {
+	#modal3cart {
+		width: 75%;
+		margin-right: 5%;
+	}
+} /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	#modal3cart {
+		width: 75%;
+		margin-right: 5%;
+	}
+}
+	/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@font-face {
+	font-family: "Motion Picture",;
+	src: url('fonts/MotionPicture.ttf');
+	src: local('fonts/MotionPicture regular'), local('fonts/MotionPicture'),
+		url('fonts/MotionPicture.ttf') format('truetype');
+}
+
+#modal3cart {
+	color: #FFFDE9;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+	height: auto;
+	font-size: 16px;
+	z-index: 2000;
+}
+
+#modal3cart a:link {
+	color: #FFFDE9;
+}
+
+#modal3cart a:visited {
+	color: #FFFDE9;
+} /* visited link */
+#modal3cart a:hover {none;
+	
+} /* mouse over link */
+#modal3cart a:active {underline;
+	
+} /* selected link */
+
+/* scrollbar */
+#modal3cart ::-webkit-scrollbar {
+	width: 15px;
+}
+
+#modal3cart ::-webkit-scrollbar-track {
+	-webkit-box-shadow: none;
+	-webkit-box-border-radius: 3px;
+	border-radius: 3px;
+	background-color: none;
+}
+
+#modal3cart ::-webkit-scrollbar-thumb {
+	-webkit-box-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	background-color: #FFFDE9;
+}
+
+#modal3cart  ::-moz-scrollbar {
+	width: 10px;
+}
+
+#modal3cart  ::-moz-scrollbar-track {
+	background-color: none;
+}
+
+#modal3cart  ::-moz-scrollbar-thumb {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background: #FFFDE9;
+}
+
+#modal3cart  ::-moz-scrollbar-corner {
+	-webkit-box-shadow: none;
+	background-color: none;
+}
+
+/* end scrollbar */
+#modal .button {
+	font-size: 18px;
+	font-family: inherit;
+	background-color: #C11A22;
+	border-color: #C11A22;
+	color: #FFFDE9;
+}
+
+#modal3cart .modalTitle h1 {
+	text-transform: capitalize;
+	font-size: 40px;
+	color: #FFFDE9;
+	font-family: "Motion Picture", "Lucida Grande", sans-serif;
+}
+
+#modal3cart h2 {
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #FFFDE9;
+}
+
+#modal3cart p {
+	text-transform: capitalize;
+	font-size: 14px;
+	color: #FFFDE9;
+}
+
+#modal3-cartcontainer {
+	width: 99%;
+	height: 350px;
+	line-height: 3em;
+	overflow: auto;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	padding: 1%;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.roomRemove {
+	width: auto;
+	font-family: Motion Picture;
+	font-weight: normal;
+	font-style: oblique;
+	font-size: 1.6rem;
+	padding-left: 5px;
+	padding-top: 12%;
+	text-align: left;
+}
+
+.roomTimer {
+	width: auto;
+	color: #C11A22;
+	font-size: 1rem;
+	padding-left: 5px;
+	padding-top: 0;
+	text-align: left;
+}

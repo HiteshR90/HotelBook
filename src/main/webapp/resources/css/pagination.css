@@ -1,0 +1,22 @@
+/*
+Main pagination css
+*/
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover,
+	.pagination>.active>span:hover, .pagination>.active>a:focus,
+	.pagination>.active>span:focus {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #C11A22;
+}
+
+ul.pagination li a {
+	color: #fff;
+}
+
+.pagination>.disabled>span, .pagination>.disabled>span:hover,
+	.pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover,
+	.pagination>.disabled>a:focus {
+	cursor: not-allowed;
+	color: #3A2C1D;
+}

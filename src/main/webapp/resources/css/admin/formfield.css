@@ -1,0 +1,273 @@
+/***Contact*/
+.contact {
+	padding: 3% 2%;
+}
+
+.contact-form {
+	position: relative;
+}
+
+form {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.login-form div {
+	padding: 5px 0;
+}
+
+.login-form span label {
+	color: #202227;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.login-form span label1 {
+	color: #202227;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.login-form input[type="text"],input[type="password"],.contact-form textarea
+	{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #FFFFFF;
+	border: 2px solid #E7E7E7;
+	color: rgba(85, 81, 81, 0.84);
+	padding: 2px;
+	display: block;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+.contact-form div {
+	padding: 5px 0;
+}
+
+.contact-form span label {
+	color: #202227;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.contact-form span label1 {
+	color: #202227;
+	display: block;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.contact-form input[type="text"],.contact-form textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #FFFFFF;
+	border: 2px solid #E7E7E7;
+	color: rgba(85, 81, 81, 0.84);
+	padding: 2px;
+	display: block;
+	width: 50%;
+	outline: none;
+	-webkit-appearance: none;
+	//text-transform: capitalize;
+}
+
+.contact-form input[type="email"],.contact-form textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #FFFFFF;
+	border: 2px solid #E7E7E7;
+	color: rgba(85, 81, 81, 0.84);
+	padding: 2px;
+	display: block;
+	width: 50%;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+textarea {
+	resize: none;
+	height: 80px;
+}
+
+input[type="submit"] {
+	font-family: 'Source Sans Pro', sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+	padding: 12px 30px;
+	border: 1px solid #ffffff;
+	background: #202227;
+	display: inline-block;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #ffffff;
+	-webkit-transition: 0.9s;
+	-moz-transition: 0.9s;
+	-o-transition: 0.9s;
+	transition: 0.9s;
+}
+
+.CustomButton {
+	font-family: 'Source Sans Pro', sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+	padding: 12px 30px;
+	border: 1px solid #ffffff;
+	background: #202227;
+	display: inline-block;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #ffffff;
+	-webkit-transition: 0.9s;
+	-moz-transition: 0.9s;
+	-o-transition: 0.9s;
+	transition: 0.9s;
+}
+
+.contact-form input[type="submit"]:hover {
+	background: #000000;
+}
+
+.fieldsetCustom {
+	border-radius: 5px;
+	padding: 5px;
+	min-height: 150px;
+	border: 1px solid;
+}
+
+.legendCustom {
+	background: #111;
+	color: #fff;
+	padding: 2px 4px;
+	font-size: 10px;
+	border-radius: 2px;
+	box-shadow: 0 0 0 3px #ddd;
+	margin-left: 20px;
+}
+
+.breadcum {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	font-size: 0.6em;
+	font-weight: bold;
+}
+
+#rightSideDropdown {
+	padding: 10px 1px;
+	/*float:right;*/
+	left: 0px;
+}
+
+#leftsidebar {
+	float: left;
+	width: 30%;
+}
+
+#rightsidebar {
+	float: right;
+	width: 70%;
+}
+
+.info {
+	min-height: 80px;
+}
+
+/* layout */
+#main-wrap {
+	/* overflow to handle inner floating block */
+	overflow: hidden;
+}
+
+#sidebar {
+	float: left;
+	width: 50%;
+	height: 30%;
+}
+
+#content-wrap {
+	float: right;
+	width: 50%;
+	height: 30%;
+}
+
+#content-bottom {
+	clear: left;
+	width: 98%;
+	margin: 0 auto;
+	padding-top: 8px;
+	padding-bottom: 100px;
+}
+
+fieldset {
+	/* width : 50%;
+	 border:1px solid #C0C0C0; */
+	border: 0px;
+}
+
+#imagesize {
+	background-size: 80px 60px;
+	background-repeat: no-repeat;
+}
+
+.tabletext {
+	width: 60%;
+}
+
+caption {
+	text-align: left;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 1px 1px 1px; /* top right bottom left */
+}
+
+.searchbox {
+	background-color: white;
+	padding: 5px;
+	position: absolute;
+	right: 0px;
+}
+
+#search {
+	
+}
+
+#search input[type="text"] {
+	background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
+	border: 1px solid #d1d1d1;
+	font: bold 12px Arial, Helvetica, Sans-serif;
+	color: #bebebe;
+	width: 200px;
+	padding: 6px 15px 6px 35px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+	-webkit-transition: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	-o-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+}
+
+#search input[type="text"]:focus {
+	width: 250px;
+}
+
+.activeRec {
+	background: yellow;
+	color: red;
+}
+
+.fontStyle{
+	font: normal;
+	color: red;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+.rating {
+	float: left;
+	width: 100%;
+	margin: auto;
+}
+
+.rating span {
+	float: right;
+	position: relative;
+}
+
+.rating span input {
+	position: relative; float : left;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	float: left;
+}
+
+.rating span label {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-align: left;
+	color: #FFF;
+	background-image: url(../_img/star-off.png);
+	font-size: 10px;
+	margin: 0;
+	line-height: 10px;
+}
+
+.rating span:hover ~ span label, .rating span:hover label, .rating span.checked label,
+	.rating span.checked 
+	 ~ span label {
+	background-image: url(../_img/star-on.png);
+	color: #FFF;
+}

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Motion Picture';
+    src: url('fonts/motionpicture-webfont.eot');
+    src: url('fonts/motionpicture-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/motionpicture-webfont.woff2') format('woff2'),
+         url('fonts/motionpicture-webfont.woff') format('woff'),
+         url('fonts/motionpicture-webfont.ttf') format('truetype'),
+         url('fonts/motionpicture-webfont.svg#motion_pictureregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-size: 12px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+	cursor: default;
+}
+
+#feedback {
+	position: fixed;
+	top: 100px;
+	left: -370px;
+	background-color: #FFFDE9;
+	border-right: 1px solid #C11A22;
+	border-left: 3px solid #C11A22;
+	border-top: 3px solid #C11A22;
+	border-bottom: 3px solid #C11A22;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	font-size: 12px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+	cursor: default;
+	z-index: 9999;
+}
+
+#feedback form {
+	float: left;
+	padding: 10px;
+	color: #3A2C1D;
+	width: 90%;
+}
+
+#feedback form label {
+	display: block;
+	float: left;
+	text-align: right;
+	margin-right: 20px;
+	width: 65px;
+	font-weight: bold;
+	color: #3A2C1D;
+	font-size: 14px;
+}
+
+#feedback a {
+	background: #C11A22;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-top: 1px solid #3A2C1D;
+	border-right: 1px solid #3A2C1D;
+	border-bottom: 1px solid #3A2C1D;
+	-moz-box-shadow: 6px 0px 5px -5px #000;
+	-webkit-box-shadow: 6px 0px 5px -5px #000;
+	box-shadow: 6px 0px 5px -5px #000;
+	display: block;
+	width: 35px;
+	height: 100px;
+	float: left;
+	position: absolute;
+	top: 120px;
+	right: -40px;
+	text-align: center;
+}
+
+#feedback a:hover {
+	background-position: center right;
+}
+
+#feedback form .btn {
+	float: right;
+	background: url(../img/submit.1.png) no-repeat 0px 0px transparent;
+	text-indent: -9999em;
+	width: 80px;
+	height: 28px;
+	border: none !important;
+}
+
+#feedback form textarea {
+	width: 250px;
+	height: 140px;
+	min-width: 250px;
+	min-height: 140px;
+	max-width: 250px;
+	max-height: 140px;
+	border: 1px solid #3A2C1D;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 2%;
+	display: inline;
+}
+
+#feedback :focus {
+	outline: none !important;
+}
+
+#feedback form input[type="text"] {
+	width: 250px;
+	height: 50px;
+}
+
+#feedback h2 {
+	text-align: center;
+	color: #C11A22;
+	/*text-shadow:0.2px 0.3px 0.3px #000;*/
+	font-size: 40px;
+	font-family: "Motion Picture", "Lucida Grande", "Lucida Sans Unicode",
+		"Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}

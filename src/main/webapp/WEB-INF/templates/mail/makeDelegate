@@ -1,0 +1,11 @@
+<html>
+<body>
+	<font face="Comic Sans MS" size="3"><b>Dear ${mainUser},</b></font><br/><br/>
+	<font face="courier New" size="2">
+		You make <b>${delegateUser}</b> as delegate user for your account,<br/>
+		Now <b>${delegateUser}</b> can buy and sell room on behalf of you<br/>.<br/><br/>
+		Thanks,<br/>
+		XchangeHotel Team.
+	</font>
+</body>
+</html>

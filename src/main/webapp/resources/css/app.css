@@ -1,0 +1,1130 @@
+/*---------------------------
+		CSS Document
+------------------------ */
+@font-face {
+    font-family: 'Motion Picture';
+    src: url('fonts/motionpicture-webfont.eot');
+    src: url('fonts/motionpicture-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/motionpicture-webfont.woff2') format('woff2'),
+         url('fonts/motionpicture-webfont.woff') format('woff'),
+         url('fonts/motionpicture-webfont.ttf') format('truetype'),
+         url('fonts/motionpicture-webfont.svg#motion_pictureregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*--------------------------- 
+			 body 
+------------------------ */
+.body {
+	width: 101%;
+	height: 100%;
+	background: white;
+	color: #FFFDE9;
+	padding: 0;
+	margin: 0;
+	font-family: "Lucida Sans", "Lucida Grande", Helvetica,
+		Lucida Sans Unicode, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	position: relative;
+	cursor: default;
+}
+
+.row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	border: none;
+}
+
+.columns {
+	/* border: none; */
+}
+
+/*--------------------------- 
+ 			header 
+ ------------------------ */
+#top-bar {
+	width: 100%;
+	height: 125px;
+	background-color: #C11A22;
+	background-image: url(../img/OSR_footer.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	color: #FFFDE9;
+	font-size: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+#logo-box-sell {
+	max-width: 100%;
+	height: 100%;
+	max-height: 110;
+	background-color: #3A2C1D;
+	text-align: center;
+	padding-top: 1%;
+}
+
+#logo-box-Buy {
+	max-width: 100%;
+	height: 100%;
+	max-height: 110;
+	background-color: #FFFDE9;
+	text-align: center;
+	padding-top: 1%;
+}
+
+#logo-box-Buy img {
+	height: 110px;
+	min-height: 105px !important;
+	max-height: 115px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+//
+Small
+
+
+
+
+ 
+
+
+
+
+screens
+
+
+
+
+
+
+
+
+
+
+@media only screen {
+	#logo-box-Buy img {
+		background-color: #C11A22;
+		background-image: url(../img/OSR_footer.jpg);
+	}
+} /* Define mobile styles */
+@media only screen and (max-width: 40em) {
+	#logo-box-Buy {
+		background-color: #C11A22;
+		background-image: url(../img/OSR_footer.jpg);
+	}
+} /* max-width 640px, mobile-only styles, use */
+#temp-logo {
+	padding: 5px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+#temp-logo img {
+	min-width: 175px !important;
+	min-height: 105px !important;
+	max-height: 110px !important;
+	padding: 0;
+	margin: 0;
+}
+
+#top-bar .inline-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+#top-bar  .inline-list>li {
+	padding-top: 75px;
+	list-style: none;
+	float: left;
+	display: block;
+}
+
+#top-bar   .inline-list>li>* {
+	display: block;
+	margin-left: 2rem;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+	font-size: 20px;
+	color: #FFFDE9;
+	text-transform: uppercase;
+	padding-bottom: 0 !important;
+}
+
+#top-bar  .inline-list>li a {
+	color: #FFFDE9;
+	text-decoration: none;
+}
+
+#top-bar  .inline-list>li :hover {
+	color: #3A2C1D;
+	text-decoration: none;
+}
+
+#top-bar  .inline-list>li a:focus {
+	color: #3A2C1D;
+	text-decoration: none;
+}
+
+.f-dropdown {
+	background: #C11A22 !important;
+	border: solid 2px #3A2C1D !important;
+}
+
+#cart {
+	margin: 8px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+#cart  img {
+	width: 75%;
+	height: 65%;
+	min-width: 95px;
+	min-height: 85px;
+	max-width: 100px;
+	max-height: 90px;
+	margin: 0;
+	border-bottom: 1px dotted #3A2C1D;
+}
+
+#accountName {
+	width: 100%;
+	float: right;
+	text-align: center;
+	font-size: .65em;
+	color: #FFFDE9;
+	padding: 3% 0 2% 0;
+}
+
+//
+Medium
+
+
+
+
+ 
+
+
+
+
+screens
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 40.063em) {
+} /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	#top-bar nav {
+		padding-left: 2% !important;
+	}
+	#top-bar  .inline-list>li {
+		padding-top: auto;
+		margin-left: 7%;
+		margin-right: 0;
+		height: 110px;
+	}
+	#top-bar   .inline-list>li>* {
+		font-size: 18px;
+		margin: 0;
+	}
+	#cart {
+		padding-top: 0;
+		padding-left: 7px;
+		padding-right: 2%;
+	}
+}
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/
+Small
+
+
+
+
+ 
+
+
+
+
+screens
+
+
+
+
+
+
+
+
+
+
+@media only screen {
+} /* Define mobile styles */
+@media only screen and (max-width: 40em) {
+	#top-bar {
+		width: 100%;
+		height: auto;
+		max-height: 220px;
+	}
+	#top-bar nav {
+		padding-left: 0 !important;
+		width: 75%;
+		height: 70px;
+	}
+	#top-bar  .inline-list>li {
+		margin: 0 0 0 6%;
+		height: 95px !important;
+		padding-top: auto;
+	}
+	#top-bar   .inline-list>li>* {
+		font-size: 14px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#cart {
+		width: 25%;
+		margin: 0;
+	}
+	#cart img {
+		min-width: 83px !important;
+		min-height: 75px;
+	}
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/*------------------------ 
+		footer 
+------------------------*/
+footer 
+{
+    max-width: 100%;
+ text-align:center;
+ /* IE10 */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #C11A22 0%, #941C22 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #C11A22 0%, #941C22 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #C11A22 0%, #941C22 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #C11A22), color-stop(1, #941C22));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #C11A22 0%, #941C22 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #C11A22 0%, #941C22 100%);
+
+ overflow: hidden;
+ left: 0px;
+ right: 0px;
+ top:0px;}
+#footer-img1 {
+	padding: 1% 7% 0 0;
+}
+
+#footer-img1 {
+	padding-right: 10%;
+}
+
+#footer-img1 img {
+	min-width: 181px;
+	min-height: 43px;
+	float: right;
+	padding-right: 0;
+	margrin-righ: 0;
+}
+
+#footer-media {
+	padding-top: 1%;
+	margin: 0;
+	text-align: right;
+}
+
+.footerNav {
+	width: 100%;
+	padding: 1% 18% 0 18%;
+	margin: 0 1% 2% 1%;
+}
+
+.footerNav .columns {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.footerNav .inline-list {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.footerNav .inline-list>li>* {
+	display: block;
+}
+
+footer a:hover {
+	color: #3A2C1D;
+}
+
+/*------------------------
+		splash page
+------------------------*/
+.main{min-height:100%;
+width: 100%;
+max-width: 100%;
+margin-bottom: -130px;
+background-image:url(../img/OSR_Home.jpg);
+background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+background-repeat: repeat-y;}
+.main:after{display:block;
+content: "";}
+footer, .main:after{
+  height:130px;
+}
+
+#splash-back
+{
+
+
+
+}
+
+#splash-back .alert-box.warning {
+	width: 100%;
+	/* position: fixed;
+	 z-index: 999;   */
+	background-color: #C11A22 !important;
+	border-color: #3A2C1D;
+	color: #FFFDE9;
+	text-align: center;
+	font-size: 18px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #3A2C1D;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+}
+
+#splash-back  .alert-box .close {
+	font-size: 1.375rem;
+	padding: 9px 6px 4px;
+	line-height: 0;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.6875rem;
+	right: 0.25rem;
+	color: #FFFDE9;
+	opacity: 0.7;
+}
+
+#splash-back    .alert-box .close:hover, .alert-box .close:focus {
+	opacity: 1;
+}
+
+#splash-logo {
+	text-align: center;
+}
+
+#splash-input
+{
+ text-align: center;
+ padding-top: 3%; 
+ padding-bottom: 2%;
+ position: ;
+ 
+}
+  
+#splash-find
+{ 
+ padding-bottom: 2%;
+ text-align: right;
+ padding-right: 5%;
+ padding-left: 5%; 
+}
+
+#splash-list
+{
+ padding-bottom: 2%;
+ text-align: left;
+ padding-left: 5%;
+ padding-right: 5%;
+}
+
+#splash-login
+{
+padding-bottom: 5%;
+text-align: right;
+padding-right: 1%;
+}
+
+
+#splash-register
+{
+padding-bottom: 5%;
+text-align: left;
+padding-left: 1%;
+}
+
+//
+Small
+
+
+
+
+ 
+
+
+
+
+screens
+
+
+
+
+
+
+
+
+
+
+@media only screen {
+	#splash-register {
+		padding-left: 6%;
+	}
+} /* Define mobile styles */
+@media only screen and (max-width: 40em) {
+	#splash-register {
+		padding-left: 6%;
+	}
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/*------------------------
+		temp buy
+------------------------*/
+.buyRoomList {
+	height: auto !important;
+	color: #FFFDE9;
+	background-color: #fffde9;
+}
+
+.roomList-container {
+	height: auto;
+	background-image: url(../img/OSR_bg_brown.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #3A2C1D;
+	padding: 0% 1% 3% 1%;
+}
+
+.RoomList-content {
+	padding-left: 3%;
+	padding-bottom: 10%;
+	color: #FFFDE9;
+}
+
+#arrow-container {
+	padding-top: 10%;
+}
+
+#next-arrow {
+	padding-top: 80%;
+	padding-bottom: 50%;
+}
+
+#next-arrow img {
+	min-width: 50px;
+	height: 50px;
+}
+
+#prev-arrow {
+	padding-top: 80%;
+	margin-top: 5%;
+}
+
+#prev-arrow img {
+	min-width: 50px;
+	height: 50px;
+}
+
+.buySideBar {
+	background-color: #FFFDE9;
+	height: auto;
+	padding: 2%;
+}
+
+.buySBContent {
+	color: #3A2C1D;
+	margin-top: 7%;
+}
+
+#buyPagination {
+	float: right;
+	padding-right: 35%;
+}
+
+/*------------------------
+		temp sell
+------------------------*/
+/*account main content*/
+.accountContent {
+	height: auto !important;
+	background-color: #3a2c1d;
+}
+
+.accountRight {
+	height: auto;
+	background-image: url(../img/OSR_bg_tan.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #FFFDE9;
+	padding: 1%;
+}
+
+.accountPages {
+	
+}
+
+.accountPages h1 {
+	font-family: "Motion Picture", Lucida Grande, sans-serif;
+	font-size: 60px;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	color: #3A2C1D;
+}
+
+.accountPages p {
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.accountRight .transbox {
+	width: 100%;
+	min-height: 700px;
+	padding: 3%;
+	margin-bottom: 5%;
+	color: #3A2C1D;
+	font-size: 18px;
+	text-transform: uppercase;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(58, 44, 29, .2) !important;
+	/* Fallback for web browsers that don't support RGBa */
+	background-color: #3A2C1D;
+	/* RGBa with 0.5 opacity */
+	filter: alpha(opacity = 80);
+	/* For IE 5.5 - 7*/
+	background-color: rgba(58, 44, 29, .2) !important;
+	/* For IE8 and earlier */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=,
+		endColorstr=);
+	/* For IE 8*/
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=, endColorstr=)";
+}
+
+.accountRight .transbox h3 {
+	color: #3A2C1D !important;
+	font-family: inherit;
+	font-weight: bold;
+	margin-bottom: 5%;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.accountRight .transbox a {
+	color: #3A2C1D;
+}
+
+.accountRight .transbox a:hover {
+	color: #FFFDE9 !important;
+}
+/*side bar for account pages */
+.accountSideBar {
+	background-color: #3A2C1D;
+	height: auto;
+	padding: 0;
+}
+
+.accountSBContent {
+	padding: 0;
+	margin-top: 30%;
+}
+
+.accountAccordion dd {
+	background-color: #3A2C1D;
+	text-align: center;
+	color: #3A2C1D;
+	text-transform: uppercase;
+	border-bottom: 20px solid #3A2C1D;
+}
+
+.accountAccordion dd.active>a {
+	background-color: #FFFDE9;
+}
+
+.accountAccordion .content.active {
+	background-color: #3A2C1D;
+}
+
+.accountAccordion dd>a {
+	background-color: #FFFDE9;
+	padding: 8%;
+	background-image: none;
+	font-size: 20px !important;
+}
+
+.accountAccordion dd>a:hover {
+	background-color: #FFFDE9;
+}
+
+.accountTabs {
+	background-color: #3A2C1D;
+	min-height: 200px;
+	padding: 0;
+}
+
+.accountTabs	.tabs-content>.content {
+	padding: 0;
+}
+
+.accountTabs .tabs dd>a {
+	background-color: #3A2C1D;
+	font-size: 16px !important;
+	color: #FFFDE9;
+	width: 100%;
+}
+
+.accountTabs .tabs dd.active a {
+	background-color: rgba(255, 253, 233, .4);
+	/* Fallback for web browsers that don't support RGBa */
+	background-color: #3A2C1D;
+	/* RGBa with 0.5 opacity */
+	filter: alpha(opacity = 60);
+	/* For IE 5.5 - 7*/
+	background-color: rgba(255, 253, 233, .4) !important;
+	/* For IE8 and earlier */
+}
+
+#myProfile .accountInfoContain {
+	padding: 0 1% 0 1%;
+	margin-bottom: 7%;
+}
+
+.accountInfoContain .title {
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+.accountInfoContain .accountInfo {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #3A2C1D;
+	margin-right: 3%;
+	text-aligh: left;
+}
+
+.accountInfoContain input {
+	font-size: 14px;
+}
+
+#changePW {
+	margin-top: 0;
+}
+
+#changePW .accountInfoContain {
+	margin-bottom: 10%;
+}
+
+#bankAccount .accountInfoContain {
+	margin-bottom: 5%;
+}
+
+.accountRight .innerWindow {
+	padding-top: 2%;
+	height: 480px;
+	width: 100%;
+	overflow: scroll;
+}
+
+.accountTransCon {
+	max-height: 200px;
+	margin-bottom: 10% !important;
+	padding-left: 30%;
+}
+
+.accountTransCon img {
+	max-width: 200px;
+	max-height: 200px;
+	min-height: 150px;
+	min-width: 150px;
+	border: 1px solid #3A2C1D;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	float: right;
+}
+
+.accountTransImg {
+	position: relative;
+	/* <-- Set as the reference for the positioned overlay */
+}
+
+.accountTransImg .overlay {
+	position: absolute;
+	/* <-- Remove the overlay from normal flow         */
+	bottom: 0; /* <-- Keep the overlay at the bottom of the box   */
+	left: 0; /* <-- Set left and right properties to 0          */
+	right: 0; /*     In order to expand the overlay horizontally */
+	height: 50%;
+	padding: 0;
+	background-color: none;
+	margin-right: 10%;
+	color: #FFFDE9;
+	text-align: right;
+}
+
+.accountTransImg .overlay p {
+	font-size: 25px !important;
+	font-weight: 800;
+}
+
+.accountTransCon .accountInfo {
+	margin-bottom: 5%;
+	max-height: 210px;
+}
+
+.accountRelist {
+	float: right;
+	width: 100px;
+	font-size: 1em;
+	background-color: #C11A22;
+	border: .7px solid #3A2C1D;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	text-align: center;
+	font-family: "Motion Picture";
+	text-transform: capitalize !important;
+}
+
+/*-----------------------------------
+	reservation payment process page
+--------------------------------------*/
+#resPayment .columns {
+	padding: 0;
+	margin: 0;
+}
+
+#resPayment input {
+	padding: 0;
+	margin: 0;
+}
+
+#resPayment  .tabs dd {
+	text-align: center;
+	position: relative;
+	margin-bottom: 0 !important;
+	margin-right: 10%;
+	float: left;
+}
+
+#resPayment   .tabs dd>a {
+	padding: 0;
+	display: block;
+	background: none;
+	color: #3A2C1D;
+	margin-bottom: 8%;
+}
+
+#resPayment     .tabs dd>a:hover {
+	background: none;
+}
+
+#resPayment  tabs dd.active a {
+	background: none;
+}
+
+#resPayment .tabs-content {
+	margin-bottom: 1%;
+	width: 100%;
+}
+
+#ppLogin {
+	margin-left: 3%;
+}
+
+#ppLogin p {
+	font-size: 18px;
+}
+
+#ppLogin a {
+	color: #C11A22;
+	text-decoration: none;
+	line-height: inherit;
+}
+
+#SelRmsContain {
+	height: 500px;
+	text-align: center;
+	color: #3A2C1D;
+}
+
+#SelRmsContain h4 {
+	color: #3A2C1D;
+}
+
+.selectedRooms {
+	color: #3A2C1D;
+	font-size: 16px;
+	height: 300px;
+	overflow: auto;
+	padding-top: 5%;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.selectRes {
+	margin-bottom: 10% !important;
+}
+
+.selectRes-info {
+	text-align: left;
+}
+
+.selectRes-price {
+	text-align: center;
+}
+
+.totalContain {
+	text-align: right;
+	color: #FFFDE9;
+	font-size: 20px;
+	padding-top: 1%;
+	padding-right: 8%;
+}
+
+#respayinfo {
+	margin: 0 0 5% 0;
+	padding: 0;
+}
+
+#respayinfo h4 {
+	color: #C11A22;
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+}
+
+#respayinfo p {
+	padding: 0;
+	margin: 0;
+}
+
+/*--------------------------------------
+	Template w/ no side nav tan body
+----------------------------------------*/
+#temp-1 {
+	width: 100%;
+	background-image: url(../img/OSR_bg_tan.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #FFFDE9;
+}
+
+#temp-1Content {
+	width: 100%;
+	color: #3A2C1D;
+	padding: 2% 5%;
+}
+
+#temp-1 .transbox {
+	margin-bottom: 3%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(58, 44, 29, .2) !important;
+	/* Fallback for web browsers that don't support RGBa */
+	background-color: #3A2C1D;
+	/* RGBa with 0.5 opacity */
+	filter: alpha(opacity = 80);
+	/* For IE 5.5 - 7*/
+	background-color: rgba(58, 44, 29, .2) !important;
+	/* For IE8 and earlier */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=,
+		endColorstr=);
+	/* For IE 8*/
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr=, endColorstr=)";
+}
+
+/*------------------------------------
+  Template w/ no side nav brown body
+ -------------------------------------*/
+#temp-2 {
+	min-height: 100%;
+	background-image: url(../img/OSR_bg_brown.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #3A2C1D;
+	padding: 5%;
+}
+
+.temp-2-content {
+	color: #FFFDE9;
+	font-family: inherit;
+}
+
+/*------------------------
+ 		thumbnails
+------------------------*/
+.thContainer {
+	margin-top: 2%;
+	width: 226px;
+	height: 190px;
+}
+
+.thContainer img {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #3A2C1D;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.TH-descript {
+	text-align: left;
+	padding-left: 3%;
+	max-width: 200px;
+	overflow: hidden;
+}
+
+.TH-descript p {
+	margin: 0;
+	overflow: hidden;
+}
+
+/*------------------------
+ 		Sell-Hotel-Info
+------------------------*/
+#hotel-sellForm {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-left: 2%;
+	margin-righ: 2%;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#hotel-sellForm
+    .button {
+	font-size: 18px;
+	font-family: "Motion Picture";
+	background-color: #C11A22;
+	color: #FFFDE9;
+}
+
+#sellform-title {
+	text-align: center;
+	font-family: inherit;
+}
+
+#sellform-title h1 {
+	color: #3A2C1D;
+	font-family: "Motion Picture";
+	font-size: 40px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+/*------------------------
+    Typography 
+ ------------------------*/
+.help-inline {
+	color: #F78C30 !important;
+	/* font-size: 1.2em !important; */
+}
+
+label {
+	/* font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif; */
+	font-family:""Open Sans",sans-serif";
+	text-transform: capitalize;
+	/* font-size: .8rem; */
+	cursor: default;
+}
+
+fieldset legend {
+	font-family: inherit;
+	font-size: .8rem;
+	font-weight: bold;
+	background: none;
+	color: #3A2C1D;
+	padding: 0 0.1875rem;
+	margin: 0;
+	margin-left: -0.1875rem;
+}
+
+select {
+	height: auto;
+}
+
+select[size], select[multiple] {
+	background-image: none;
+}
+
+input :focus {
+	outline: none !important;
+}
+
+/* button {
+	border-radius: 10px !important;
+	-moz-border-radius: 10px;
+	-webkit-border-radis: 10px;
+	font-family: "Motion Picture" !important;
+	letter-spacing: 2px !important;
+	font-size: 26px !important;
+	text-align: center !important;
+	text-transform: capitalize !important;
+	padding: 2%;
+} */

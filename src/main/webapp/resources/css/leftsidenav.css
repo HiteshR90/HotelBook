@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+#left-side-nav {
+	width: 100%;
+	color: #3A2C1D;
+	font-size: 18px;
+	text-align: center;
+	font-family: inherit;
+	margin: 2%;
+	text-transform: uppercase;
+}
+
+#left-side-nav p {
+	font-size: 0.8rem !important;
+}
+
+.siderow {
+	margin-bottom: 5% !important;
+}
+
+form {
+	width: 100%;
+	text-align: center;
+	color: #3A2C1D;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+input {
+	border: solid 1px #3A2C1D !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+label {
+	text-align: center;
+}
+
+.date-container {
+	width: 50%;
+	float: left;
+	padding: 2%;
+}
+
+#slider1-container {
+	width: 100% !important;
+}
+
+/*------------------------
+		star rating
+------------------------*/
+.rating {
+	float: left;
+	width: 100%;
+}
+
+.rating span {
+	float: right;
+	position: relative;
+}
+
+.rating span input {
+	position: relative;
+	float: left;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	float: left;
+}
+
+.rating span label {
+	display: inline-block;
+	width: 43px;
+	height: 46px;
+	text-align: left;
+	color: #FFF;
+	background-image: url(../_img/OSR_starempty.png);
+	font-size: 10px;
+	margin: 0;
+	line-height: 10px;
+}
+
+.rating span:hover ~ span label, .rating span:hover label, .rating span.checked label,
+	.rating span.checked ~ span label {
+	background-image: url(../_img/OSR_starfull.png);
+	color: #FFF;
+}
+
+.checkboxs label {
+	padding-top: 3%;
+	font-size: 14px;
+}

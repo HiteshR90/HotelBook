@@ -1,0 +1,548 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+		   _____      _ _    _____ _     _         ______                         _____  _____ _____ 
+		  / ____|    | | |  / ____(_)   | |       |  ____|                       / ____|/ ____/ ____|
+		 | (___   ___| | | | (___  _  __| | ___   | |__ ___  _ __ _ __ ___      | |    | (___| (___  
+		  \___ \ / _ \ | |  \___ \| |/ _` |/ _ \  |  __/ _ \| '__| '_ ` _ \     | |     \___ \\___ \ 
+		  ____) |  __/ | |  ____) | | (_| |  __/  | | | (_) | |  | | | | | |    | |____ ____) |___) |
+		 |_____/ \___|_|_| |_____/|_|\__,_|\___|  |_|  \___/|_|  |_| |_| |_|     \_____|_____/_____/ 
+		 
+		 							Table of Content: 
+									   Media Query
+											 body
+											 progress bar
+											 	#sellProgress
+												.progContain
+											 main middle content 
+											 	.container +
+											 slide container
+											 	.sellSlide
+											 individual slides
+											 	.sellOne-Six ++
+											 buttons 
+											 	.sellSubmit
+											 footer
+											 	.sellFooter
+		 */
+/
+Small
+
+
+ 
+
+
+screens
+
+
+
+
+
+
+@media only screen {
+} /* Define mobile styles */
+@media only screen and (max-width: 40em) {
+	.sellOne input {
+		font-size: 14px;
+	}
+	.sellSubmit {
+		padding: 3% !important;
+		text-align: center;
+		font-size: 32px !important;
+		width: 25% !important;
+	}
+	.sellSubmit :focus {
+		border: none !important;
+		background: none !important;
+	}
+	.sellOne {
+		margin-top: 50% !important;
+	}
+	#otherContain {
+		padding-right: 10% !important;
+		padding-left: 10% !important;
+	}
+	#otherContain input {
+		font-size: 14px;
+	}
+	#from {
+		border-right: none;
+	}
+	.sellFive div {
+		margin-right: 10% !important;
+		margin-left: 10% !important;
+	}
+	.sellFive input {
+		font-size: 14px;
+	}
+	#priceTotal {
+		padding-top: 10% !important;
+	}
+	.sellFive h1 {
+		line-height: 1;
+		margin-bottom: .3rem;
+	}
+	#emailContain {
+		width: 100% !important;
+		margin-left: 0 !important;
+		font-size: 24px !important;
+		padding-top: 10% !important;
+	}
+	#ccInput {
+		padding-left: 3% !important;
+	}
+	#ccInput input {
+		font-size: 14px;
+		width: 100% !important;
+	}
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+//
+Medium
+
+
+ 
+
+
+screens
+
+
+
+
+
+
+
+@media only screen and (min-width: 40.063em) {
+	.sellOne {
+		padding-top: 10%;
+		height: 500px;
+	}
+	#from {
+		border-right: 1px solid #3A2C1D;
+	}
+} /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.sellOne {
+		padding-top: 10%;
+		height: 500px;
+	}
+	#from {
+		border-right: 1px solid #3A2C1D;
+	}
+	#emailContain {
+		width: 100% !important;
+		margin-left: 0 !important;
+		font-size: 30px !important;
+		padding-top: 5% !important;
+	}
+}
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+//
+Large
+
+
+ 
+
+
+screens
+
+
+
+
+
+
+@media only screen and (min-width: 64.063em) {
+	#nameContain {
+		padding: 0 2% 0 20%;
+	}
+	#adrressContain {
+		padding: 1% 20% 0 2%;
+	}
+	#sellTypeA {
+		text-align: right !important;
+		padding-right: 2px;
+	}
+	#sellTypeB {
+		text-align: left !important;
+		padding-left: 2px;
+	}
+	#from {
+		border-right: 1px solid #3A2C1D;
+	}
+	#sellProgress {
+		font-size: 24px !important;
+	}
+} /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+	#nameContain {
+		padding: 1% 2% 0 20%;
+	}
+	#adrressContain {
+		padding: 1% 20% 0 2%;
+	}
+	#sellTypeA {
+		text-align: right !important;
+		padding-right: 2px;
+	}
+	#sellType {
+		text-align: left !important;
+		padding-left: 2px;
+	}
+	#from {
+		border-right: 1px solid #3A2C1D;
+	}
+	#sellProgress {
+		font-size: 24px !important;
+	}
+}
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+//
+XLarge
+
+
+ 
+
+
+screens
+
+
+
+
+
+
+@media only screen and (min-width: 90.063em) {
+} /* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+}
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@font-face {
+    font-family: 'Motion Picture';
+    src: url('fonts/motionpicture-webfont.eot');
+    src: url('fonts/motionpicture-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/motionpicture-webfont.woff2') format('woff2'),
+         url('fonts/motionpicture-webfont.woff') format('woff'),
+         url('fonts/motionpicture-webfont.ttf') format('truetype'),
+         url('fonts/motionpicture-webfont.svg#motion_pictureregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	margin: 0;
+	height: auto;
+	padding: 0;
+	background-color: #FFFDE9;
+}
+
+sellprocess input {
+	outline: none;
+}
+
+#sellProgress {
+	width: 100%;
+	height: 40px;
+	padding: 5px 0 5px 0;
+	color: #FFFDE9;
+	font-size: 14px;
+	background-color: #C11A22;
+	position: fixed;
+	z-index: 2;
+	text-transform: capitalize;
+	margin-bottom: 5%;
+}
+
+#sellProgress a:hover {
+	color: #3A2C1D;
+}
+
+.progContain {
+	border-right: 1px solid #3A2C1D;
+}
+
+.sellContainer {
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	text-align: center;
+	background-color: transparent;
+	overflow-y: auto;
+}
+
+.sellContainer h1 {
+	font-family: "Motion Picture", "Lucida Grande", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+	color: #3A2C1D;
+	padding-top: 2%;
+	padding-bottom: 10px;
+	font-size: 50px;
+}
+
+.sellSlide {
+	height: 440px;
+	cursor: pointer;
+	border-top: 1px solid #3A2C1D;
+	margin-top: 10%;
+	background-color: #FFFDE9;
+}
+
+.sellOne {
+	position: relative;
+	top: 0;
+	background-color:;
+	z-index: 1;
+	width: 100%;
+	border: none;
+	height: auto;
+	padding-bottom: 7%;
+}
+
+.sellOne h1 {
+	padding-top: 4%;
+}
+
+.sellOne p {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.sellTwo {
+	position: relative;
+	top: -450px;
+	background-color: z-index: 0;
+	-webkit-transition: top 1s;
+	-moz-transition: top 1s;
+	-o-transition: top 1s;
+	transition: top 1s;
+}
+
+.sellTwo .roomType {
+	color: #3A2C1D;
+	background-color: #FFFDE9;
+	border: 2px solid #3A2C1D;
+	width: 150px;
+	height: 90px;
+}
+
+.sellTwo button a:hover, a:focus {
+	background: transparent;
+	color: #FFFDE9;
+}
+
+#sellType {
+	margin-bottom: 0;
+}
+
+.sellThree {
+	position: relative;
+	top: -870px;
+	height: auto;
+	z-index: -0;
+	-webkit-transition: top 1s;
+	-moz-transition: top 1s;
+	-o-transition: top 1s;
+	transition: top 1s;
+}
+
+.roomTypeEven {
+	margin-right: 13px;
+}
+
+.sellThree p {
+	font-size: 26px;
+	text-align: center;
+	color: #C11A22;
+	border-radius: 10px;
+	border: 2px solid #3A2C1D;
+}
+
+.sellCalender {
+	padding: 0 4% 0 4%;
+}
+/*
+
+#sellFour
+{   
+    position:relative;
+    top: -1290;
+    background-color: #FFFDE9;
+    -webkit-transition: top 1s;
+    -moz-transition: top 1s;
+    -o-transition: top 1s;
+    transition: top 1s;
+	}
+
+#sellPerNi
+{
+  border:2px solid #3A2C1D;
+  border-radius:10px;
+  width:25%;
+  height:20%; 
+  margin-left:37.5%;
+  padding-top:2%;
+  text-align:center;
+}
+	#sellPerNi p
+	{
+	   padding:0;
+	   margin:0;
+	   font-size: 30px;
+	  
+	}
+*/
+.sellFive {
+	position: relative;
+	top: -1290; /* -1710;*/
+	background-color: #FFFDE9;
+	-webkit-transition: top 1s;
+	-moz-transition: top 1s;
+	-o-transition: top 1s;
+	transition: top 1s;
+}
+
+#totDet {
+	color: #3A2C1D;
+}
+
+.sellFive a {
+	text-decoration: none;
+	color: #C11A22;
+}
+
+.sellFive a:hover {
+	text-decoration: none;
+	color: #C11A22;
+	font-size: 1.2em;
+}
+
+#priceTotal {
+	border: 2px solid #3A2C1D;
+	font-size: 30px;
+	border-radius: 10px;
+	height: 30%;
+	margin: 2% 35% 1% 35%;
+	text-align: center;
+	padding-top: 4%;
+}
+
+.sellSix {
+	position: relative;
+	top: -1710; /* -2130px;*/
+	background-color: #FFFDE9;
+	-webkit-transition: top 1s;
+	-moz-transition: top 1s;
+	-o-transition: top 1s;
+	transition: top 1s;
+}
+
+.sellSix p {
+	font-size: 20px;
+}
+
+.ccBTN button {
+	background-color: transparent;
+	color: #3A2C1D;
+	font-family:;
+	border: 2px solid #3A2C1D;
+	width: 150px;
+	height: 90px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#ccInput {
+	padding-left: 34%;
+}
+
+#ccInput input {
+	width: 50%;
+}
+
+#emailContain {
+	width: 50%;
+	height: 100px;
+	border: 2px solid #3A2C1D;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-top: 4%;
+	font-size: 30px;
+	color: #C11A22;
+	margin-left: 25%;
+}
+
+.sellTwo, .sellThree, .sellFive, .sellSix, #sellSeven {
+	display: none;
+}
+
+.sellSubmit {
+	font-family: "Motion Picture", "Lucida Grande", "Lucida Sans",
+		"DejaVu Sans", Verdana, sans-serif;
+	font-size: 34px;
+	width: 15%;
+	padding: 1%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	letter-spacing: 1.5px;
+}
+
+.sellSubmit button a:hover, a:focus {
+	background-color: #C11A22;
+	color: #FFFDE9;
+}
+
+#sellFooter footer {
+	width: 100%;
+	height: 150px auto;
+	text-align: center;
+	background-image: url(../_img/OSR_footer.png);
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #C11A22;
+	overflow: hidden;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+}
+
+#footer_bottom{
+	margin-bottom: 1.5%;
+}
+
+#footer_bottom:-webkit-full-screen{
+	margin-bottom: 3%;
+}
+
+#footer_bottom:-moz-full-screen{
+	margin-bottom: 3%;
+}
+
+#footer_bottom:-ms-full-screen{
+	margin-bottom: 3%;
+}
+
+// XLarge screens
+@media only screen and (min-width: 90.063em), screen and (min-height:655px) {
+	#footer_bottom{
+	margin-bottom: 3% !important;
+}
+} /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em), screen and (min-height:655px) { 
+	#footer_bottom{
+	margin-bottom: 3% !important;
+}
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em), screen and (min-height:700px) { 
+	#footer_bottom{
+		margin-bottom: 8% !important;
+	}
+} /* min-width 1921px, xxlarge screens */

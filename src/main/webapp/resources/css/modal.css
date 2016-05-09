@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+		  __  __           _       _                 __  __           _       _   __         _____  _____ _____ 
+		 |  \/  |         | |     | |     ___       |  \/  |         | |     | | /_ |       / ____|/ ____/ ____|
+		 | \  / | ___   __| | __ _| |    ( _ )      | \  / | ___   __| | __ _| |  | |      | |    | (___| (___  
+		 | |\/| |/ _ \ / _` |/ _` | |    / _ \/\    | |\/| |/ _ \ / _` |/ _` | |  | |      | |     \___ \\___ \ 
+		 | |  | | (_) | (_| | (_| | |   | (_>  <    | |  | | (_) | (_| | (_| | |  | |      | |____ ____) |___) |
+		 |_|  |_|\___/ \__,_|\__,_|_|    \___/\/    |_|  |_|\___/ \__,_|\__,_|_|  |_|       \_____|_____/_____/ 
+																											   */
+@font-face {
+	font-family: "Motion Picture";
+	src: url('fonts/MotionPicture.ttf');
+	src: local('fonts/MotionPicture regular'), local('fonts/MotionPicture'),
+		url('fonts/MotionPicture.ttf') format('truetype');
+}
+
+#modal {
+	width: 100% auto;
+	height: auto;
+	color: #FFFDE9 !important;
+	padding: 2%;
+}
+
+#modal ::-webkit-scrollbar {
+	width: 15px;
+}
+
+#modal ::-webkit-scrollbar-track {
+	-webkit-box-shadow: none;
+	border-radius: 3px;
+	background-color: none;
+}
+
+#modal ::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	background-color: #FFFDE9;
+}
+
+#modalTitle {
+	font-size: 24px;
+	font-variant: small-caps;
+	margin-bottom: 2%;
+}
+
+#lean_overlay {
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: none;
+	display: none;
+}
+
+#modala {
+	width: 50%;
+	padding: 30px;
+	display: none;
+	background: #3A2C1D;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0 0px 4px rgba(0, 0, 0, 1);
+}
+
+#modal1 {
+	height: auto;
+	color: #FFFDE9 !important;
+}
+
+.modal1 h1 {
+	font-family: "Motion Picture";
+	letter-spacing: 2px;
+	font-size: 40px;
+	text-align: center;
+	color: #C11A22;
+}
+
+.moal1Space {
+	margin-bottom: 15px;
+}
+
+#modal1 input {
+	font-size: 13px;
+	margin-top: 1%;
+}
+
+#modal1-contentA {
+	width: 85%;
+	font-size: 15px;
+	color: #FFFDE9 !important;
+}
+
+#modal1-contentB {
+	width: 85%;
+	font-size: 15px;
+	padding-top: 0;
+	color: #FFFDE9 !important;
+}
+
+#existinguser {
+	width: 50%;
+	float: left;
+	border-right: solid 1px #C11A22;
+}
+
+#newuser {
+	width: 50%;
+	float: left;
+	padding-left: 5%;
+}
+
+#modal1-topimg {
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 8%;
+}
+
+#terms-box {
+	font-size: 12px;
+	color: #FCF9F9;
+	padding-bottom: 5%;
+	padding-right: 5%;
+}
+
+#forgotPW {
+	background-color: transparent;
+	font-family: "Motion Picture";
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#forgotPW {
+	min-width: 100px;
+	min-height: 40px !important;
+}
+
+#login {
+	background-color: transparent;
+	font-family: "Motion Picture";
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#login img {
+	min-width: 100px;
+	min-height: 40px !important;
+}
+
+#fblogin {
+	background-color: transparent;
+	font-family: "Motion Picture";
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#fblogin img {
+	background-color: transparent;
+	min-width: 100px;
+	min-height: 40px !important;
+}
+
+#or {
+	background-color: transparent;
+	font-family: "Motion Picture";
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#or img {
+	width: 175px;
+	height: 40px #F78C30;
+	min-width: 100px;
+	min-height: 40px !important;
+}
+
+#createAccount {
+	background-color: transparent;
+	font-family: "Motion Picture";
+	margin: 0;
+	width: 100%;
+}
+
+#createAccount img {
+	min-width: 100px;
+	min-height: 40px !important;
+}
